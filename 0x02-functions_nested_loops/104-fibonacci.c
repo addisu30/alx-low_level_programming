@@ -29,8 +29,8 @@ c = n / digit, d = n % digit;
 for (cycl = 91; cycl <= limit; cycl++)
 {
 thousand = (b + d) / digit;
-split1 = (a + c) + thousand;
-split2 = (b + d) - thousand * digit;
+split1 = (a + c)+thousand;
+split2 = (b + d) - thousand *digit;
 a = c, b = d;
 c = split1, d = split2;
 if (split2 >= 100)
