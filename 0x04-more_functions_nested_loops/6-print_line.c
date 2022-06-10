@@ -13,7 +13,7 @@ int i, j;
 if (n < 1)
 {
 _putchar('\n');
-}
+
 else
 {
 for (i = 1; i <= n; i++)
