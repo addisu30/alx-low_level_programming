@@ -36,6 +36,6 @@ else if (found == 1)
 break;
 }
 }
-ten2 = ten * neg;
+ten2 = ten *neg;
 return (ten2);
 }
