@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 _putchar;
+=======
+int _putchar(char c);
+>>>>>>> 63f33159a75a29cbc706c7fd786a26beb44535df
 void reset_to_98(int *n);
 void swap_int(int *a, int *b);
 int _strlen(char *s);
