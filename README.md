@@ -3,4 +3,5 @@
 #2 VARIABLES if else while
 #3 function nested looping
 #4 debugging for the checking error
-#5 more function nested loops 
+#5 more function nested loops
+#6 pointers_arrays_strings 
