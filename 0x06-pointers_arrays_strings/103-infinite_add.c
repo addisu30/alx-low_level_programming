@@ -1,14 +1,14 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * infinite_add - adds two numbers
- * @n1: number 1
- * @n2: number 2
- * @r: buffer to store result
- * @size_r: size of buffer
- *
- * Return: Always 0.
- */
+* infinite_add - adds two numbers
+* @n1: number 1
+* @n2: number 2
+* @r: buffer to store result
+* @size_r: size of buffer
+*
+* Return: Always 0.
+*/
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 int i, j, diff, big, small, cyc, cyc2, count, tmp, ten, check;
