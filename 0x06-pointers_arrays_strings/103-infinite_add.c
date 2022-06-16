@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 #include <stdio.h>
 /**
 * infinite_add - adds two numbers
@@ -7,8 +7,7 @@
 * @r: buffer to store result
 * @size_r: size of buffer
 *
-* Return: On success 1.
-* On error, -1 is returned, and errno is set appropriately.
+* Return: always 0.
 */
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
