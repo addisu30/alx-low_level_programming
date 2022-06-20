@@ -7,7 +7,7 @@
 * @r: buffer to store result
 * @size_r: size of buffer
 *
-* Return: Always 0.
+* Return: always 0.
 */
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
@@ -46,4 +46,5 @@ if (r[check] > 57 || r[check] < 48)
 r[check] = 0;
 return (r);
 }
+
 
