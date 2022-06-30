@@ -48,8 +48,6 @@ return (p);
 }
 
 /**
- * main - multiplies inf numbers
- *
  * @argc: # of cmd line args
  * @argv: cmd line args
  * Return: Nothing.
