@@ -4,9 +4,10 @@
 #include <ctype.h>
 /**
  * _isnumber - checks if string is number
+ *
  * @s: string
  *
- * Return: Always 0.
+ * Return: 1 if number, 0 if not
  */
 int _isnumber(char *s)
 {
@@ -27,9 +28,10 @@ return (check);
 
 /**
  * _callocX - reserves memory initialized to 0
+ *
  * @nmemb: # of bytes
  *
- * Return: Always 0.
+ * Return: pointer
  */
 char *_callocX(unsigned int nmemb)
 {
@@ -47,9 +49,10 @@ return (p);
 
 /**
  * main - multiplies inf numbers
+ *
  * @argc: # of cmd line args
  * @argv: cmd line args
- * Return: Nothing.
+ * Return: No return
  */
 int main(int argc, char **argv)
 {
@@ -77,7 +80,7 @@ add = (res[tl] - '0') + (mul % 10) + ten2;
 ten2 = add / 10;
 res[tl] = (add % 10) + '0';
 }
-res[tl - 1] = (ten + ten2) +'0';
+res[tl - 1] = (ten + ten2) + '0';
 }
 if (res[0] == '0')
 zer = 1;
@@ -87,3 +90,4 @@ printf("\n");
 free(res);
 return (0);
 }
+
