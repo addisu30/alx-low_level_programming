@@ -1,4 +1,4 @@
-ifndef FUNCTIONS_H
+#ifndef FUNCTIONS_H
 #define FUNCTIONS_H
 int _putchar(char c);
 void print_name(char *name, void (*f)(char *));
