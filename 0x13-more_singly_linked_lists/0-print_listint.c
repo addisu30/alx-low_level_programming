@@ -6,7 +6,7 @@
  * print_listint - prints a singly linked list
  * @h: pointer to head of singly linked list
  *
- * Return: the number of nodes
+ * Return: Always 0.
  */
 size_t print_listint(const listint_t *h)
 {
