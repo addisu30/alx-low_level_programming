@@ -5,7 +5,6 @@
  * @head: pointer to the head in linked list to test
  *
  * Return: Always 0.
- * 
  */
 listint_t *find_listint_loop(listint_t *head)
 {
