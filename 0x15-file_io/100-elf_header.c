@@ -11,12 +11,12 @@
  *
  * @h: header
  *
- * Return: No Return
+ * Return: Always 0.
  */
 void _checkelf(char *h)
 {
-	if (h[0] != 0x7f || h[1] != 'E' || h[2] != 'L' || h[3] != 'F')
-		dprintf(STDERR_FILENO, "Error: Wrong file type\n"), exit(98);
+if (h[0] != 0x7f || h[1] != 'E' || h[2] != 'L' || h[3] != 'F')
+dprintf(STDERR_FILENO, "Error: Wrong file type\n"), exit(98);
 }
 
 /**
@@ -24,7 +24,7 @@ void _checkelf(char *h)
  *
  * @h: header
  *
- * Return: No Return
+ * Return: Always 0.
  */
 void _magic(char *h)
 {
@@ -82,7 +82,7 @@ printf("<unknown: %02hx>\n", h[5]);
  *
  * @h: header
  *
- * Return: No Return
+ * Return: Always 0.
  */
 void _version(char *h)
 {
@@ -101,7 +101,7 @@ printf("%d\n", h[6]);
  *
  * @h: header
  *
- * Return: No Return
+ * Return: Always 0.
  */
 void _os(char *h)
 {
@@ -149,7 +149,7 @@ printf("<unknown: %02hx>\n", h[7]);
  *
  * @h: header
  *
- * Return: No Return
+ * Return: Always 0.
  */
 void _abiv(char *h)
 {
@@ -162,7 +162,7 @@ printf("%d\n", h[8]);
  * @h: header
  * @x64: variable to check if x64 (1) or x32 (0)
  *
- * Return: No Return
+ * Return: Always 0.
  */
 void _type(char *h, int x64)
 {
@@ -203,7 +203,7 @@ printf("<unknown>: %02x\n", h[xtype]);
  * @h: header
  * @x64: check 1 for x64 and 0 x32
  *
- * Return: No Return
+ * Return: Always 0.
  */
 void _entry(char *h, int x64)
 {
