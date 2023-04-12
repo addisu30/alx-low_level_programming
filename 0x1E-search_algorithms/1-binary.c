@@ -6,7 +6,7 @@
  * @min: left boundary
  * @max: right boundary
  *
- * Return: First index where value is located or -1
+ * Return: No Return
  */
 void print_array(int *array, int min, int max)
 {
@@ -38,7 +38,7 @@ int binary_search(int *array, size_t size, int value)
 	while (min <= max)
 	{
 		printf("Searching in array: ");
-		rint_array(array, min, max);
+		print_array(array, min, max);
 		mid = (min + max) / 2;
 		if (array[mid] == value)
 			return (mid);
